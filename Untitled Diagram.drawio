@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T02:32:15.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="4OzKNpuv7i3qkRTe-8K1" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-22T02:42:46.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Qd6MgUrohuBP8YSFYdOl" version="16.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1141" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,121 +10,139 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="진료 상태 API 호출" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="110" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="ON" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="OFF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="MfAUOCv_uztjSPuRUpwe-5" edge="1">
+          <mxGeometry x="-0.1726" y="15" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="120.03999999999996" y="290.0319999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="OFF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="MfAUOCv_uztjSPuRUpwe-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="MfAUOCv_uztjSPuRUpwe-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="토글 DATA&amp;nbsp;&lt;br&gt;ON / OFF 여부" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="190" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="소켓 연결 OFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="250" y="215" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="소켓 연결 OFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;arcSize=34;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="230" y="350" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="소켓 연결 ON" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="60" y="310" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-0" target="WIyWlLk6GJQsqaUBKTNV-3">
+        <mxCell id="MfAUOCv_uztjSPuRUpwe-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="MfAUOCv_uztjSPuRUpwe-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-0" value="새로고침" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="소켓 연결 ON" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-0" target="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-0" value="새로고침" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="30" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-6" value="ON" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-8" target="FuYV7TR1O7A9Vf9Khoj8-10">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-6" value="ON" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-8" target="FuYV7TR1O7A9Vf9Khoj8-10" edge="1">
           <mxGeometry y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="500.03999999999996" y="210.03199999999993" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-7" value="OFF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-8" target="FuYV7TR1O7A9Vf9Khoj8-9">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-7" value="OFF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-8" target="FuYV7TR1O7A9Vf9Khoj8-9" edge="1">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-8" value="토글 DATA&amp;nbsp;&lt;br&gt;ON / OFF 여부" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-8" value="토글 DATA&amp;nbsp;&lt;br&gt;ON / OFF 여부" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="110" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-9" value="소켓 연결 OFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-9" value="소켓 연결 OFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="630" y="135" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-10" value="소켓 연결 ON" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-10" value="소켓 연결 ON" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="230" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-12">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-12" value="토글 이벤트" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-12" value="토글 이벤트" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="30" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-14" value="오류 Alert 노출" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="470" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-15" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-14" target="FuYV7TR1O7A9Vf9Khoj8-19">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="120.03999999999996" y="555.0319999999999" as="targetPoint" />
-            <mxPoint x="120.03999999999996" y="544.97" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FuYV7TR1O7A9Vf9Khoj8-18">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="120" y="620" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="120" y="580" />
-              <mxPoint x="120" y="580" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-18" target="FuYV7TR1O7A9Vf9Khoj8-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-18" value="의료진 상태 False&lt;br&gt;소켓 연결 OFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="620" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-19" value="의료진 상태 변경 API 호출" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="540" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-21" target="FuYV7TR1O7A9Vf9Khoj8-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-21" value="소켓 연결 오류" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="400" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-24" value="토글 OFF 처리" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-14" value="오류 Alert 노출" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="700" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FuYV7TR1O7A9Vf9Khoj8-32">
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-15" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-14" target="FuYV7TR1O7A9Vf9Khoj8-19" edge="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="120.03999999999996" y="785.0319999999999" as="targetPoint" />
+            <mxPoint x="120.03999999999996" y="774.97" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FuYV7TR1O7A9Vf9Khoj8-18" edge="1">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="490" y="550" as="sourcePoint" />
+            <mxPoint x="120" y="850" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="490" y="510" />
-              <mxPoint x="490" y="510" />
+              <mxPoint x="120" y="810" />
+              <mxPoint x="120" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-32" value="의료진 상태 False&lt;br&gt;소켓 연결 OFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="550" width="120" height="40" as="geometry" />
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-18" target="FuYV7TR1O7A9Vf9Khoj8-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-33" value="의료진 상태 변경 API 호출" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="470" width="140" height="40" as="geometry" />
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-18" value="의료진 상태 False&lt;br&gt;소켓 연결 OFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="850" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="470" as="targetPoint" />
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-19" value="의료진 상태 변경 API 호출" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="770" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-21" target="FuYV7TR1O7A9Vf9Khoj8-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-21" value="소켓 연결 오류" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-24" value="토글 OFF 처리" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="930" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FuYV7TR1O7A9Vf9Khoj8-32" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="490" y="780" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="490" y="740" />
+              <mxPoint x="490" y="740" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-35" value="로그아웃" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="400" width="120" height="30" as="geometry" />
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-32" value="의료진 상태 False&lt;br&gt;소켓 연결 OFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="430" y="780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-33" value="의료진 상태 변경 API 호출" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="420" y="700" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FuYV7TR1O7A9Vf9Khoj8-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuYV7TR1O7A9Vf9Khoj8-35" value="로그아웃" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="430" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MfAUOCv_uztjSPuRUpwe-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MfAUOCv_uztjSPuRUpwe-0" target="WIyWlLk6GJQsqaUBKTNV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfAUOCv_uztjSPuRUpwe-0" value="진료 변경 API 호출&lt;br&gt;토글 상태값 변경" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MfAUOCv_uztjSPuRUpwe-3" value="의사 진료 가능 상태값 변경" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="460" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MfAUOCv_uztjSPuRUpwe-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MfAUOCv_uztjSPuRUpwe-5" target="WIyWlLk6GJQsqaUBKTNV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfAUOCv_uztjSPuRUpwe-5" value="진료 변경 API 호출&lt;br&gt;토글 상태값 변경" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MfAUOCv_uztjSPuRUpwe-8" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;ON&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="280" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
